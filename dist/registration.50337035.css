@@ -1,0 +1,113 @@
+.avatar {
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/user.576d2421.png);
+  background-size: 100px;
+  border-radius: 50%;
+}
+.error-message__text {
+  width: 100%;
+  text-align: center;
+  color: red;
+}
+.sidebar {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar__content {
+  display: flex;
+}
+.sidebar__body {
+  flex-wrap: none;
+  padding: 2rem;
+  padding-top: 20px;
+  width: 300px;
+  transition: width 0.4s, visibility 0.12s;
+  max-height: 100vh;
+}
+.sidebar__body.close {
+  opacity: 0.1;
+  padding: 0;
+  visibility: hidden;
+}
+.sidebar__controls {
+  background-color: #34c38f;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar__toggle {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 28px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: center;
+}
+.sidebar__toggle[data-status=open] {
+  transform: rotate(180deg);
+}
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.169);
+  display: grid;
+  height: 100%;
+  left: 0;
+  place-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.modal-content {
+  transform: scale(0.9);
+  background: #f2f2f2;
+  border-radius: 8px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 400px;
+}
+.modal-content__header {
+  border-radius: 8px 8px 0 0;
+  height: 70px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content__title {
+  color: #34c38f;
+  font-size: 2rem;
+}
+.modal-content__body {
+  padding: 1rem;
+}
+.registration-form {
+  display: grid;
+  grid-row-gap: 0.5rem;
+}
+.registration-form__controls {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0 0 0;
+}
+.registration-form__controls .btn {
+  width: 100%;
+}
+
+/*# sourceMappingURL=/registration.50337035.css.map */
