@@ -9082,7 +9082,7 @@ function onToggleClick() {
 }
 window.addEventListener("DOMContentLoaded", function () {
   var sidebarToggle = document.getElementById("sidebarToggle");
-  sidebarToggle.addEventListener("click", onToggleClick);
+  sidebarToggle === null || sidebarToggle === void 0 ? void 0 : sidebarToggle.addEventListener("click", onToggleClick);
 });
 },{}],"components/sidebar/sidebar.hbs.js":[function(require,module,exports) {
 "use strict";
@@ -9220,7 +9220,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55956" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58416" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

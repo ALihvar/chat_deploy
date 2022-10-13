@@ -15,5 +15,5 @@ function onToggleClick() {
 
 window.addEventListener("DOMContentLoaded", () => {
   const sidebarToggle = document.getElementById("sidebarToggle");
-  sidebarToggle.addEventListener("click", onToggleClick);
+  sidebarToggle?.addEventListener("click", onToggleClick);
 });
