@@ -8957,7 +8957,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _default = "\n    <div class=\"status-code\">\n        <div class=\"status-code__content\">\n            <span class=\"code\">{{ code}}</span>\n\n            <span class=\"message\">{{ message}}</span>\n\n            </br>\n\n            <a href=\"/chat.html\" class=\"link\">\n                \u041D\u0430\u0437\u0430\u0434 \u043A \u0447\u0430\u0442\u0430\u043C\n            </a>\n        </div>\n    </div>\n";
+var _default = "\n    <div class=\"status-code\">\n        <div class=\"status-code__content\">\n            <span class=\"code\">{{ code}}</span>\n\n            <span class=\"message\">{{ message}}</span>\n\n            </br>\n\n            <a href=\"/pages/chat/chat.html\" class=\"link\">\n                \u041D\u0430\u0437\u0430\u0434 \u043A \u0447\u0430\u0442\u0430\u043C\n            </a>\n        </div>\n    </div>\n";
 exports.default = _default;
 },{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
@@ -9054,7 +9054,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58790" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51339" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
