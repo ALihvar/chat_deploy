@@ -3,7 +3,7 @@ import tplStrFormUserInfo from "./form.hbs";
 import { Block } from "../../../../core/block";
 import { FormProps, TypeForm } from "./types";
 import { Button } from "../../../../components";
-import { Settings } from "../Settings";
+import { Settings } from "../settings";
 import "./form.scss";
 
 export class Form extends Block {
